@@ -6,12 +6,12 @@
 Если буква f в данной строке не встречается, ничего не выводите.
 """
 
-S = input()
-if S.count('f') == 1:
-	print(S.find('f'))
-elif S.count('f') > 1:
-	print(S.find('f'))
-	print(S.rfind('f'))
+s = input()
+if s.count('f') == 1:
+	print(s.find('f'))
+elif s.count('f') > 1:
+	print(s.find('f'))
+	print(s.rfind('f'))
 
 """
 Решение разработчиков
